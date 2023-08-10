@@ -3,7 +3,7 @@ title: Psychology
 date: '2021-09-15'
 tags: ['reading']
 draft: false
-summary: The wisdom starts from knowing yourself.
+summary:  The wisdom starts from knowing yourself.
 ---
 
 ## Psychology Reading list.

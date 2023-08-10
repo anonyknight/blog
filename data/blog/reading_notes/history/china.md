@@ -1,9 +1,9 @@
 ---
 title: Chinese
-date: '2021-10-02'
+date: '2021-10-05'
 tags: ['life', 'China']
 draft: false
-summary: Chinese history
+summary:  Chinese history
 ---
 
 ## Current China
@@ -13,4 +13,3 @@ summary: Chinese history
 [解放军上将](https://zh.wikipedia.org/wiki/中国人民解放军上将)[赵南起](https://zh.wikipedia.org/wiki/赵南起)
 
 [彭德怀](https://zh.wikipedia.org/wiki/彭德怀)
-

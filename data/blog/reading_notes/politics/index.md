@@ -3,7 +3,7 @@ title: Politics
 date: '2021-09-17'
 tags: ['life']
 draft: false
-summary: Politics study
+summary:  Politics study
 ---
 
 ## Canadian Politics 2021 Election

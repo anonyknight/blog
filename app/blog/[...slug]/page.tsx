@@ -37,6 +37,8 @@ export async function generateMetadata({
     return
   }
 
+  // May need to use luxon library.
+  // Right now, it's only parsing date, didn't parse time and timezone.
   const publishedAt = new Date(post.date).toISOString()
   const modifiedAt = new Date(post.lastmod || post.date).toISOString()
   const authors = authorDetails.map((author) => author.name)

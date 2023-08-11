@@ -60,6 +60,7 @@ const securityHeaders = [
 module.exports = () => {
   const plugins = [withContentlayer, withBundleAnalyzer]
   return plugins.reduce((acc, next) => next(acc), {
+    output: 'export', // support static site generation
     reactStrictMode: true,
     pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
     eslint: {
@@ -67,18 +68,19 @@ module.exports = () => {
     },
     images: {
       domains: ['picsum.photos'],
+      unoptimized: true, // to support static site generation
     },
     experimental: {
       appDir: true,
     },
-    async headers() {
-      return [
-        {
-          source: '/(.*)',
-          headers: securityHeaders,
-        },
-      ]
-    },
+    // async headers() {
+    //   return [
+    //     {
+    //       source: '/(.*)',
+    //       headers: securityHeaders,
+    //     },
+    //   ]
+    // },
     webpack: (config, options) => {
       config.module.rules.push({
         test: /\.svg$/,

@@ -1,7 +1,7 @@
 ---
 title: Python Built-in Constants
 date: 'August 4, 2021'
-tags: ['']
+tags: ['Python']
 ---
 
 False

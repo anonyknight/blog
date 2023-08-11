@@ -16,11 +16,13 @@ Patterns that find a range of characters in the string
 #### Quantifiers
 Special characters or flags that specify the position or frequency of a certain pattern
 ##### Frequency
+
 * p+ one or more times
 * p* zero or more times
 * p? maximum once
-* p{n} in a sequence n times
-* p{m,n} minimum m times and max n times
+* p\{n\} in a sequence n times
+* p\{m,n\} minimum m times and max n times
+
 
 ##### Positional 
 * ^p p should exist at the start of the string

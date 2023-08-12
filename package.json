@@ -2,6 +2,7 @@
   "name": "tailwind-nextjs-starter-blog",
   "version": "2.0.0",
   "private": true,
+  "packageManager": "yarn@3.6.1",
   "scripts": {
     "start": "next dev",
     "dev": "cross-env INIT_CWD=$PWD next dev",
@@ -73,6 +74,5 @@
     "*.+(js|jsx|ts|tsx|json|css|md|mdx)": [
       "prettier --write"
     ]
-  },
-  "packageManager": "yarn@3.6.1"
+  }
 }

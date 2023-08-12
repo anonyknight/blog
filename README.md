@@ -233,6 +233,8 @@ See [Next.js on Netlify](https://docs.netlify.com/integrations/frameworks/next-j
 3. Remove `api` folder and components which call the server-side function such as the Newsletter component.
 4. Run `yarn build`. The generated static content is in the `out` folder.
 
+[Using GitHub Pages with Next.js](https://github.com/actions/starter-workflows/blob/main/pages/nextjs.yml)
+
 ## Support
 
 Using the template? Support this effort by giving a star on GitHub, sharing your own blog and giving a shoutout on Twitter or becoming a project [sponsor](https://github.com/sponsors/timlrx).

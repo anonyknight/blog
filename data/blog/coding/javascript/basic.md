@@ -1,7 +1,7 @@
 ---
 title: CMD
 date: 'July 17, 2021'
-tags: ['study', 'linux']
+tags: ['javascript', 'programming']
 ---
 
 

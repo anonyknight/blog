@@ -1,7 +1,7 @@
 ---
 title: JS-Grammar
 date: 'December 26, 2022'
-tags: ['study']
+tags: ['javascript', 'programming']
 ---
 
 ## Regular expression

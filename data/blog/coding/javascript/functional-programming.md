@@ -1,7 +1,7 @@
 ---
 title: Functional Programming
 date: 'July 17, 2021'
-tags: ['JS', 'linux']
+tags: ['javascript', 'programming']
 ---
 
 ## Function composition

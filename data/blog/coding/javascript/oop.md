@@ -1,7 +1,7 @@
 ---
 title: JS-OOP
 date: 'January 6, 2023'
-tags: ['JS']
+tags: ['javascript', 'programming']
 ---
 
 ## Prototypes

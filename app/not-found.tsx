@@ -1,3 +1,6 @@
+/* Special page for 404 errors.
+https://nextjs.org/docs/app/api-reference/file-conventions/not-found
+*/
 import Link from '@/components/Link'
 
 export default function NotFound() {

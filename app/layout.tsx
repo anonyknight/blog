@@ -1,3 +1,7 @@
+/* This file is required for next.js Root Layout.
+
+https://nextjs.org/docs/app/building-your-application/routing/pages-and-layouts#root-layout-required
+*/
 import 'css/tailwind.css'
 import 'pliny/search/algolia.css'
 

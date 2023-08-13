@@ -1,3 +1,6 @@
+/* Help search engine crawlers crawl your site more efficiently.
+
+https://nextjs.org/docs/app/api-reference/file-conventions/metadata/sitemap */
 import { MetadataRoute } from 'next'
 import { allBlogs } from 'contentlayer/generated'
 import siteMetadata from '@/data/siteMetadata'

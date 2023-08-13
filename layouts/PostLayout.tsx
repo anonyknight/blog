@@ -30,9 +30,23 @@ interface LayoutProps {
 }
 
 export default function PostLayout({ content, authorDetails, next, prev, children }: LayoutProps) {
-  const { filePath, path, slug, date, title, tags } = content
+  const { filePath, path, slug, date, title, tags, lastmod } = content
   const basePath = path.split('/')[0]
-
+  const lastmodDiv =
+    lastmod != undefined ? (
+      <div>
+        <dt className="text-base font-small leading-6 text-gray-500 dark:text-gray-400">
+          Updated on
+        </dt>
+        <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
+          <time dateTime={lastmod}>
+            {new Date(lastmod).toLocaleDateString(siteMetadata.locale, postDateTemplate)}
+          </time>
+        </dd>
+      </div>
+    ) : (
+      <> </>
+    )
   return (
     <SectionContainer>
       <ScrollTopAndComment />
@@ -42,12 +56,15 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
             <div className="space-y-1 text-center">
               <dl className="space-y-10">
                 <div>
-                  <dt className="sr-only">Published on</dt>
+                  <dt className="text-base font-small leading-6 text-gray-500 dark:text-gray-400">
+                    Published on
+                  </dt>
                   <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
                     <time dateTime={date}>
                       {new Date(date).toLocaleDateString(siteMetadata.locale, postDateTemplate)}
                     </time>
                   </dd>
+                  {lastmodDiv}
                 </div>
               </dl>
               <div>

@@ -12,6 +12,7 @@ import Header from '@/components/Header'
 import SectionContainer from '@/components/SectionContainer'
 import Footer from '@/components/Footer'
 import siteMetadata from '@/data/siteMetadata'
+// ThemeProviders is a Client Component
 import { ThemeProviders } from './theme-providers'
 import { Metadata } from 'next'
 import Head from './head'

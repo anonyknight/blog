@@ -1,7 +1,8 @@
 ---
 title: Javascript Framework
 summary: Vue vs. React
-date: '2023-08-11'
+date: '2023-08-08'
+lastmod: '2023-08-13'
 tags: ['javascript', 'programming']
 ---
 
